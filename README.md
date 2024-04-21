@@ -1,7 +1,3 @@
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
 ## Installation
 
 ```bash
@@ -34,5 +30,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 ## Docker
+```
 docker build . -t portal
 docker run -p 8080:3000 portal
+```
